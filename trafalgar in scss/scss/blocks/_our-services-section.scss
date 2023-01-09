@@ -1,0 +1,97 @@
+.our-services-section-block {
+
+    .our-services-section__title {
+        font-family: 'Mulish';
+        font-size: 36px;
+        line-height: 56px;
+        color: #000000;
+        mix-blend-mode: normal;
+        margin-left: 699px;
+        margin-top: 219px;
+    }
+
+    .line {
+        width: 56px;
+        height: 2px;
+        border: 1px solid black;
+        margin-left: 786px;
+    }
+
+    .our-services-section-textbox {
+        margin-left: 80px;
+
+        &__text {
+            font-family: 'Muli';
+            font-size: 18px;
+            line-height: 30px;
+            color: black;
+            opacity: 0.5;
+            padding-top: 33px;
+            text-align: center;
+        }
+    }
+
+    .our-services-first-box {
+        width: 350px;
+        height: 354px;
+        background: #FFFFFF;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        margin-top: 78px;
+        margin-left: 284px;
+        z-index: 2;
+        padding-bottom: 30px;
+        display: inline-block;
+    }
+
+    .lupa-img {
+        padding-left: 37px;
+    }
+
+    .our-services-first-box__title {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 56px;
+        color: #000000;
+        mix-blend-mode: normal;
+        padding-left: 37px;
+    }
+
+    .our-services-first-box__text {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #7D7987;
+        mix-blend-mode: normal;
+        padding-left: 37px;
+    }
+
+    .our-services-second-box {
+        width: 350px;
+        height: 354px;
+        background: #FFFFFF;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        margin-top: 78px;
+        margin-left: 34px;
+        z-index: 2;
+        display: inline-block;
+    }
+
+    .our-services__btn {
+        padding: 15px 45px;
+        display: inline-block;
+        border: 1.4px solid #458FF6;
+        border-radius: 55px;
+        margin-left: 804px;     
+        font-family: 'Muli';
+        font-size: 18px;
+        color: #458FF6;
+        mix-blend-mode: normal;
+        margin-top: 74px;
+    }
+}

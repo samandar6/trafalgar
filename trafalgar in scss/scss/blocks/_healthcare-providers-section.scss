@@ -1,0 +1,48 @@
+.healthcare-providers-block {
+    display: flex;
+
+    .illustration-img {
+        margin-left: 210px;
+        margin-top: 162px;
+    }
+    
+    .healthcare-providers-textbox {
+        padding-left: 142px;
+
+        .healthcare-providers-section__title {
+            font-family: 'Mulish';
+            font-size: 36px;
+            line-height: 56px;
+            color: #000000;
+            mix-blend-mode: normal;
+            margin-top: 220px;
+        }
+
+        .second-line {
+            width: 56px;
+            height: -4px;
+            border: 1px solid black;
+            background-color: black;
+        }
+
+        .healthcare-providers-section__text {
+            font-family: 'Mulish';
+            font-size: 18px;
+            color: #7D7987;
+            mix-blend-mode: normal;
+            padding-top: 21px;
+        }
+
+        .healthcare-providers-section__btn {
+            padding: 15px 45px;
+            display: inline-block;
+            border: 1.4px solid #458FF6;
+            border-radius: 55px;
+            font-family: 'Mulish';
+            font-size: 18px;
+            color: #458FF6;
+            mix-blend-mode: normal;
+            margin-top: 17px;
+        }
+    }
+}
