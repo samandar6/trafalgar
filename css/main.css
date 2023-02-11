@@ -1,0 +1,470 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1600px;
+}
+body li {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+
+container {
+  width: 1200px;
+}
+
+.header-section-container .header-flexbox {
+  display: flex;
+  align-items: center;
+}
+.header-section-container .header-flexbox .logo {
+  margin-left: 210px;
+}
+.header-section-container .header-flexbox .navbar ul {
+  display: flex;
+  gap: 20px 40px;
+}
+.header-section-container .header-flexbox .navbar ul a {
+  font-family: "Muli";
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  opacity: 0.5;
+  transition: 0.4s ease;
+}
+.header-section-container .header-flexbox .navbar a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.header-section-container .header-flexbox .navbar ul:first-child {
+  margin-left: 550px;
+}
+
+.flexbox-register-section {
+  display: flex;
+  margin-top: 85px;
+}
+.flexbox-register-section .textbox-register-section {
+  margin-top: 100px;
+}
+.flexbox-register-section .textbox-register-section .register-section__title {
+  font-family: "Mulish";
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  padding-left: 230px;
+  padding-right: 167px;
+}
+.flexbox-register-section .textbox-register-section .register-section__text {
+  font-family: "Mulish";
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+  padding-left: 230px;
+}
+.flexbox-register-section .textbox-register-section .register-section__btn {
+  padding: 15px 35px;
+  display: inline-block;
+  border: 1px solid #458FF6;
+  margin-left: 230px;
+  background: #458FF6;
+  border-radius: 55px;
+  font-family: "Muli";
+  font-size: 18px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  margin-top: 28px;
+}
+
+.our-services-section-block .our-services-section__title {
+  font-family: "Mulish";
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-left: 699px;
+  margin-top: 219px;
+}
+.our-services-section-block .line {
+  width: 56px;
+  height: 2px;
+  border: 1px solid black;
+  margin-left: 786px;
+}
+.our-services-section-block .our-services-section-textbox {
+  margin-left: 80px;
+}
+.our-services-section-block .our-services-section-textbox__text {
+  font-family: "Muli";
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  opacity: 0.5;
+  padding-top: 33px;
+  text-align: center;
+}
+.our-services-section-block .our-services-first-box {
+  width: 350px;
+  height: 354px;
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin-top: 78px;
+  margin-left: 284px;
+  z-index: 2;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+.our-services-section-block .lupa-img {
+  padding-left: 37px;
+}
+.our-services-section-block .our-services-first-box__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  padding-left: 37px;
+}
+.our-services-section-block .our-services-first-box__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+  padding-left: 37px;
+}
+.our-services-section-block .our-services-second-box {
+  width: 350px;
+  height: 354px;
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin-top: 78px;
+  margin-left: 34px;
+  z-index: 2;
+  display: inline-block;
+}
+.our-services-section-block .our-services__btn {
+  padding: 15px 45px;
+  display: inline-block;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  margin-left: 804px;
+  font-family: "Muli";
+  font-size: 18px;
+  color: #458FF6;
+  mix-blend-mode: normal;
+  margin-top: 74px;
+}
+
+.healthcare-providers-block {
+  display: flex;
+}
+.healthcare-providers-block .illustration-img {
+  margin-left: 210px;
+  margin-top: 162px;
+}
+.healthcare-providers-block .healthcare-providers-textbox {
+  padding-left: 142px;
+}
+.healthcare-providers-block .healthcare-providers-textbox .healthcare-providers-section__title {
+  font-family: "Mulish";
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-top: 220px;
+}
+.healthcare-providers-block .healthcare-providers-textbox .second-line {
+  width: 56px;
+  height: -4px;
+  border: 1px solid black;
+  background-color: black;
+}
+.healthcare-providers-block .healthcare-providers-textbox .healthcare-providers-section__text {
+  font-family: "Mulish";
+  font-size: 18px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+  padding-top: 21px;
+}
+.healthcare-providers-block .healthcare-providers-textbox .healthcare-providers-section__btn {
+  padding: 15px 45px;
+  display: inline-block;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  font-family: "Mulish";
+  font-size: 18px;
+  color: #458FF6;
+  mix-blend-mode: normal;
+  margin-top: 17px;
+}
+
+.mobile-apps-section-flexbox {
+  display: flex;
+  gap: 0 71px;
+}
+.mobile-apps-section-flexbox .mobile-apps-section-textbox {
+  margin-left: 210px;
+}
+.mobile-apps-section-flexbox .mobile-apps-section-textbox .mobile-apps-section__title {
+  font-family: "Mulish";
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  mix-blend-mode: normal;
+  padding-top: 265px;
+}
+.mobile-apps-section-flexbox .mobile-apps-section-textbox .mobile-apps-section-line {
+  width: 56px;
+  height: 2px;
+  border: 1px solid black;
+  background-color: #000000;
+}
+.mobile-apps-section-flexbox .mobile-apps-section-textbox .mobile-apps-section__text {
+  font-family: "Muli";
+  font-size: 18px;
+  line-height: 28px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+}
+.mobile-apps-section-flexbox .mobile-apps-section-textbox .mobile-apps-section__btn {
+  padding: 15px 65px;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  display: inline-block;
+  margin-top: 20px;
+  font-family: "Muli";
+  font-size: 18px;
+  color: #458FF6;
+  mix-blend-mode: normal;
+}
+.mobile-apps-section-flexbox .mobile-apps-section__img {
+  margin-top: 262px;
+  margin-left: 71px;
+}
+
+.customer-section-block {
+  width: 1120px;
+  height: 425px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  margin-top: 269px;
+  margin-left: 210px;
+}
+.customer-section-block__title {
+  font-family: "Mulish";
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  text-align: center;
+  padding-top: 61px;
+}
+.customer-section-block-line {
+  width: 56px;
+  height: 2px;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-left: 536px;
+}
+.customer-section-block-flexbox {
+  display: flex;
+}
+.customer-section-block-flexbox-userbox {
+  display: flex;
+  align-items: center;
+  margin-left: 124px;
+  margin-top: 60px;
+}
+.customer-section-block-flexbox-userbox__img {
+  border-radius: 50%;
+}
+.customer-section-block-flexbox-userbox-info {
+  margin-left: 33px;
+}
+.customer-section-block-flexbox-userbox-info__title {
+  font-family: "Mulish";
+  font-size: 22px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+.customer-section-block-flexbox-userbox-info__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.customer-section-block-flexbox-about {
+  margin-left: 110px;
+  margin-top: 77px;
+  font-family: "Muli";
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.customer-section-spanbox {
+  display: flex;
+  align-items: center;
+  margin-left: 584px;
+  margin-top: 40px;
+}
+.customer-section-spanbox-first {
+  opacity: 0.5;
+}
+.customer-section-spanbox-second {
+  margin-left: 92px;
+}
+.customer-section-spanbox-third {
+  margin-left: 18px;
+  opacity: 0.5;
+}
+.customer-section-spanbox-fourth {
+  margin-left: 92px;
+}
+
+.last-article-section-block__title {
+  margin-top: 227px;
+  text-align: center;
+  font-family: "Mulish";
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+.last-article-section-block__line {
+  width: 56px;
+  height: 2px;
+  background-color: #000000;
+  margin-left: 772px;
+}
+.last-article-section-block-flexbox {
+  display: flex;
+}
+.last-article-section-block-flexbox__first-box {
+  margin-left: 180px;
+  width: 350px;
+  height: 512px;
+  margin-top: 76px;
+}
+.last-article-section-block-flexbox__first-box-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 246px;
+}
+.last-article-section-block-flexbox__first-box-tittle {
+  font-family: "Mulish";
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  padding-left: 33px;
+}
+.last-article-section-block-flexbox__first-box-text {
+  font-family: "Muli";
+  font-size: 16px;
+  line-height: 24px;
+  color: #7D7987;
+  padding-left: 33px;
+}
+.last-article-section-block-flexbox__first-box .last-article-block-flexbox__first-box-link {
+  display: block;
+  font-family: "Mulish";
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  margin-left: 33px;
+}
+.last-article-section-block-flexbox__second-box {
+  width: 350px;
+  height: 512px;
+  margin-top: 76px;
+  margin-left: 76px;
+}
+.last-article-section-block-flexbox__second-box .last-article-block-flexbox__second-box-link {
+  display: inline-block;
+  font-family: "Mulish";
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  margin-left: 33px;
+}
+.last-article-section-block-btn {
+  padding: 15px 65px;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  margin-left: 700px;
+  font-family: "Muli";
+  font-size: 18px;
+  color: #458FF6;
+}
+
+.footer {
+  width: 1600px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  height: 436px;
+  margin-top: 202px;
+}
+.footer-block-flexbox {
+  display: flex;
+}
+.footer-block-flexbox-textbox {
+  margin-left: 170px;
+  margin-top: 118px;
+}
+.footer-block-flexbox-textbox__img {
+  color: #fff;
+}
+.footer-block-flexbox-textbox__text {
+  font-family: "Mulish";
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.footer-block-flexbox-textbox__copyright {
+  font-family: "Mulish";
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-top: 31px;
+}
+.footer-block-flexbox-nav {
+  margin-left: 145px;
+  margin-top: 109px;
+  display: flex;
+}
+.footer-block-flexbox-nav__second {
+  margin-left: 110px;
+}
+.footer-block-flexbox-nav__title2 {
+  font-family: "Mulish";
+  font-size: 20px;
+  line-height: 60px;
+  color: #fff;
+  margin-left: 140px;
+}
+.footer-block-flexbox-nav__title {
+  font-family: "Mulish";
+  font-size: 20px;
+  line-height: 60px;
+  color: #fff;
+  margin-left: 37px;
+}
+.footer-block-flexbox-nav ul li a {
+  font-family: "Mulish";
+  font-size: 18px;
+  line-height: 38px;
+  text-align: left;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */

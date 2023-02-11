@@ -1,0 +1,44 @@
+.flexbox-register-section {
+    display: flex;
+    margin-top: 85px;
+
+    .textbox-register-section {
+
+        margin-top: 100px;
+
+        .register-section__title {
+            font-family: 'Mulish';
+            font-size: 48px;
+            line-height: 56px;
+            color: #000000;
+            mix-blend-mode: normal;
+            padding-left: 230px;
+            padding-right: 167px;
+        }
+
+        .register-section__text {
+            font-family: 'Mulish';
+            font-size: 21px;
+            line-height: 32px;  
+            color: #7D7987;
+            mix-blend-mode: normal;
+            padding-left: 230px;
+        }
+
+        .register-section__btn {
+            padding: 15px 35px;
+            display: inline-block;
+            border: 1px solid #458FF6;
+            margin-left: 230px;
+            background: #458FF6;
+            border-radius: 55px;
+            font-family: 'Muli';
+            font-size: 18px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            margin-top: 28px;
+        }
+
+    }
+
+}

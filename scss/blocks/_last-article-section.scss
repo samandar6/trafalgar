@@ -1,0 +1,87 @@
+.last-article-section {
+    &-block {
+        &__title {
+            margin-top: 227px;
+            text-align: center;
+            font-family: 'Mulish';
+            font-size: 36px;
+            line-height: 56px;
+            color: #000000;
+        }
+
+        &__line {
+            width: 56px;
+            height: 2px;
+            background-color: #000000;
+            margin-left: 772px
+        }
+
+        &-flexbox {
+            display: flex;
+
+            &__first-box {
+                margin-left: 180px;
+                width: 350px;
+                height: 512px;
+                margin-top: 76px;
+
+                &-img {
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    height: 246px;
+                }
+
+                &-tittle {
+                    font-family: 'Mulish';
+                    font-size: 21px;
+                    line-height: 32px;
+                    color: #000000;
+                    padding-left: 33px;
+                }
+
+                &-text {
+                    font-family: 'Muli';
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #7D7987;
+                    padding-left: 33px;
+                }
+
+                .last-article-block-flexbox__first-box-link {
+                    display: block;
+                    font-family: 'Mulish';
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: #4089ED;
+                    margin-left: 33px;
+                }
+            }
+
+            &__second-box {
+                width: 350px;
+                height: 512px;
+                margin-top: 76px;
+                margin-left: 76px;
+
+                .last-article-block-flexbox__second-box-link {
+                    display: inline-block;
+                    font-family: 'Mulish';
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: #4089ED;
+                    margin-left: 33px;
+                }
+            }
+        }
+
+        &-btn {
+            padding: 15px 65px;
+            border: 1.4px solid #458FF6;
+            border-radius: 55px;
+            margin-left: 700px;
+            font-family: 'Muli';
+            font-size: 18px;
+            color: #458FF6;
+        }
+    }
+}

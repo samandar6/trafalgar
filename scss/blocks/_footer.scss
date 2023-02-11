@@ -1,0 +1,74 @@
+.footer {
+    width: 1600px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    height: 436px;
+    margin-top: 202px;
+
+    &-block-flexbox {
+        display: flex;
+
+
+        &-textbox {
+            margin-left: 170px;
+            margin-top: 118px;
+
+            &__img {
+                color: #fff;
+            }
+
+            &__text {
+                font-family: 'Mulish';
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+
+            &__copyright {
+                font-family: 'Mulish';
+                font-size: 16px;
+                line-height: 28px;
+                color: #FFFFFF;
+                padding-top: 31px;
+            }   
+        }
+
+        &-nav {
+            margin-left: 145px;
+            margin-top: 109px;
+            display: flex;
+
+
+            &__second {
+                margin-left: 110px;
+            }
+
+            &__title2 {
+                font-family: 'Mulish';
+                font-size: 20px;
+                line-height: 60px;
+                color: #fff;
+                margin-left: 140px;
+            }
+
+            &__title {
+                font-family: 'Mulish';
+                font-size: 20px;
+                line-height: 60px;
+                color: #fff;
+                margin-left: 37px;
+            }
+
+            ul {
+                li {
+                    a {
+                        font-family: 'Mulish';
+                        font-size: 18px;
+                        line-height: 38px;
+                        text-align: left;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

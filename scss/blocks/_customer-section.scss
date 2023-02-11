@@ -1,0 +1,95 @@
+.customer-section {
+    &-block {
+        width: 1120px;
+        height: 425px;
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+        margin-top: 269px;
+        margin-left: 210px;
+
+        &__title {
+            font-family: 'Mulish';
+            font-size: 36px;
+            line-height: 48px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            text-align: center;
+            padding-top: 61px;
+        }
+
+        &-line {
+            width: 56px;
+            height: 2px;
+            border-radius: 6px;
+            background-color: #fff;
+            margin-left: 536px;
+        }
+
+        &-flexbox {
+            display: flex;
+
+            &-userbox {
+                display: flex;
+                align-items: center;
+                margin-left: 124px;
+                margin-top: 60px;
+
+                &__img {
+                    border-radius: 50%;
+                }
+
+                &-info {
+                    margin-left: 33px;
+
+                    &__title {
+                        font-family: 'Mulish';
+                        font-size: 22px;
+                        color: #FFFFFF;
+                        mix-blend-mode: normal;
+                    }
+
+                    &__text {
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: rgba(255, 255, 255, 0.85);
+                    }
+                }
+            }
+
+            &-about {
+                margin-left: 110px;
+                margin-top: 77px;
+                font-family: 'Muli';
+                font-size: 19px;
+                line-height: 30px;
+                color: rgba(255, 255, 255, 0.9);
+            }
+        } 
+    }
+
+    &-spanbox {
+        display: flex;
+        align-items: center;
+        margin-left: 584px;
+        margin-top: 40px;
+
+        &-first {
+            opacity: 0.5;
+        }
+
+        &-second {
+            margin-left: 92px;
+        }
+
+        &-third {
+            margin-left: 18px;
+            opacity: 0.5;
+        }
+
+        &-fourth {
+            margin-left: 92px;
+        }
+    }
+}
